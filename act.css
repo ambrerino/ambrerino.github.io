@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: url(im.jpeg) no-repeat center / cover;
+    padding: 50px 7%;
+}
+
+#un {
+
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#deux {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#s a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+
+#s a:hover, #s a.active {
+    border-color: #fff;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 55px;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    margin-left: 40px;
+    font-size: 45px;
+}
+
+.image {
+    margin-left: 45px;
+}
+
+#acceuil {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 0 5% 0;
+    color: #fff;
+}
+
+#acceuil-d h3 {
+    font-size: 55px;
+    line-height: 1;
+
+}
+
+
+
+#acceuil-d p {
+    margin: 10px 0 20px;
+}
+
+#acceuil-d #cv {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#d-cv {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#d-cv:hover{
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+
+
+}
+
+.img {
+       left: 0%;
+    z-index: -500%;
+    min-width: 100%;
+    min-height: 115%;
+    width: 10%;
+    height: 20%;
+    transform: translate (-50%, -50%);
+    overflow: hidden;
+   
+}
+
+#ima {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

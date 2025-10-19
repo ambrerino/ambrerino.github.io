@@ -1,0 +1,54 @@
+button {
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(5, 107, 73);
+}
+
+#memory {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 500px;
+    height: 500px;
+    gap: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button.restart {
+    width: 200px;
+    height: 80px;
+}
+
+.button-img{
+    background-color: aquamarine;
+    aspect-ratio: 1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-img>img {
+    border-radius: 16px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+button.retour {
+    width: 200px;
+    height: 80px;
+    color: white;
+}

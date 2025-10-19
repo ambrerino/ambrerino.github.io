@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+     
+    <div id="un">
+        <header class="ac">
+            <a href="#" id="deux">Portfolio</a>
+
+            <nav id="s">
+                <a href="index.html" >Accueil</a>
+                <a href="propo.html">A propos</a>
+                <a href="#" class="active">Projet</a>
+                <a href="bonus.html">Bonus</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        
+
+        <h1>Projet personnel</h1><br><br><br><br>
+
+       <video controls autoplay loop id="video">
+    <source src="1019.mp4" type="video/mp4">
+    
+    
+  </video>
+
+     <h5 class="jeu">Mes jeux</h5>
+
+    <section class="jeux">
+         <div class="jeux1">
+            <div class="jeux2">
+                <img src="./2048.png" alt="1">
+                
+                <div class="details">
+                    <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="2048.html">le jeu</a></button>
+</div></h4>
+                  
+                </div>
+            </div>
+             <div class="jeux2">
+                <img src="./snake.png" alt="1">
+                
+                <div class="details">
+                    <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="snake.css">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+            <div class="jeux2">
+                <img src="./memory.png" alt="2">
+                
+                <div class="details">
+                    <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="memory.html">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+            <div class="jeux2 active">
+                <img src="./morpion.png" alt="3">
+                
+                <div class="details">
+                     <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="morpion.html">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+            <div class="jeux2">
+                <img src="./brick.png" alt="4">
+                
+                <div class="details">
+                     <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="brick.html">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+            <div class="jeux2">
+                <img src="./puissance.png" alt="5">
+                
+                <div class="details">
+                     <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="puissance.html">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+            <div class="jeux2">
+                <img src="./sudoku.png" alt="6">
+              
+                <div class="details">
+                     <h4><div class="button">
+  <button id="html">html</button>
+  <button id="css">css</button>
+  <button id="js">java script</button>
+  <button id="test"><a href="sudoku.html">le jeu</a></button>
+</div></h4>
+                    
+                </div>
+            </div>
+
+         </div>
+    </section>
+
+ 
+     
+
+      
+
+    </div>
+<script src="jQuery.js"></script>
+<script>
+    jQuery(document).ready(function($){
+
+        $('.jeux2').on('click', function(){
+            $('.jeux2').removeClass('active');
+            $(this).addClass('active');
+
+        });
+    });
+</script>
+
+   
+</body>
+</html>
